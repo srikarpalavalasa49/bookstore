@@ -1,0 +1,15 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Bookstore</title>
+</head>
+<body>
+    <h1>Welcome to Bookstore</h1>
+    <p>Click on the following links:</p>
+    <ul>
+        <li><a href="{% url 'book_list' %}">Books</a></li>
+        <li><a href="{% url 'author_list' %}">Authors</a></li>
+    </ul>
+</body>
+</html>
